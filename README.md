@@ -1,20 +1,22 @@
- QuizKu - Platform Kuis Interaktif
+# QuizKu - Platform Kuis Interaktif
 
-QuizKu adalah platform kuis online yang menggabungkan unsur permainan (game) dan pembelajaran (learning). Website ini dirancang untuk membuat kegiatan mengerjakan kuis menjadi lebih menarik, interaktif, dan menyenangkan
+QuizKu adalah platform kuis online yang menggabungkan unsur permainan (*game*) dan pembelajaran (*learning*). Website ini dirancang untuk membuat kegiatan mengerjakan kuis menjadi lebih menarik, interaktif, dan menyenangkan.
 
-QuizKu memiliki dua jenis pengguna, yaitu dosen sebagai pembuat kuis dan siswa sebagai peserta yang mengerjakan kuis
+QuizKu memiliki dua jenis pengguna, yaitu **Dosen** sebagai pembuat kuis dan **Siswa** sebagai peserta yang mengerjakan kuis.
 
-- Tujuan Proyek
+---
 
+## Tujuan Proyek
 1. Memudahkan dosen dalam membuat dan mengelola kuis secara online.
 2. Memudahkan siswa dalam mengikuti kuis menggunakan kode yang diberikan dosen.
 3. Menghadirkan pengalaman belajar yang lebih menarik melalui fitur permainan.
 4. Membantu siswa mengetahui hasil dan memahami pembahasan dari soal yang dikerjakan.
 
--- Fitur Utama
+---
 
-- Fitur Dosen
+## Fitur Utama
 
+### Fitur Dosen
 * Registrasi akun dosen.
 * Login menggunakan username dan password.
 * Dashboard dosen.
@@ -24,45 +26,45 @@ QuizKu memiliki dua jenis pengguna, yaitu dosen sebagai pembuat kuis dan siswa s
 * Mendapatkan kode kuis secara otomatis.
 * Melihat hasil pengerjaan siswa.
 
-- Fitur Siswa
-
+### STUDENT Fitur Siswa
 * Mengikuti kuis tanpa membuat akun.
 * Masuk menggunakan nama dan kode kuis.
 * Mengerjakan soal pilihan ganda.
 * Melihat waktu pengerjaan.
 * Melihat skor akhir dan pembahasan soal.
 
-- Fitur Game dan Pembelajaran
+### Fitur Game dan Pembelajaran
+* **Surprise Question**: Pertanyaan kejutan yang dapat memberikan poin bonus.
+* **Answer Streak**: Menghitung rangkaian jawaban benar secara berturut-turut.
+* **Pembahasan Soal**: Memberikan penjelasan agar siswa dapat belajar dari jawaban yang dikerjakan.
 
-* Surprise Question: Pertanyaan kejutan yang dapat memberikan poin bonus.
-* Answer Streak: Menghitung rangkaian jawaban benar secara berturut-turut.
-* Pembahasan Soal: Memberikan penjelasan agar siswa dapat belajar dari jawaban yang dikerjakan.
+---
 
-- Teknologi yang Digunakan
-
-* HTML
-* CSS
-* JavaScript
+## Teknologi yang Digunakan
+* HTML / CSS / JavaScript
 * PHP Native
-* MySQL
+* MySQL & MariaDB
 * Visual Studio Code
 * XAMPP
 * GitHub
 
-- Rancangan Database
+---
 
+## Rancangan Database
 Database QuizKu dirancang menggunakan empat tabel utama:
 
-Tabel	Fungsi
-admins	Menyimpan akun dosen
-quizzes	Menyimpan data kuis
-questions	Menyimpan pertanyaan dan pilihan jawaban
-results	Menyimpan hasil pengerjaan siswa
+| Tabel | Fungsi |
+| :--- | :--- |
+| `admins` | Menyimpan akun dosen |
+| `quizzes` | Menyimpan data kuis |
+| `questions` | Menyimpan pertanyaan dan pilihan jawaban |
+| `results` | Menyimpan hasil pengerjaan siswa |
 
-- Alur Penggunaan
+---
 
-Dosen:
+## Alur Penggunaan
 
+### Dosen:
 1. Membuat akun.
 2. Login ke QuizKu.
 3. Membuat kuis dan menambahkan soal.
@@ -70,26 +72,26 @@ Dosen:
 5. Membagikan kode kepada siswa.
 6. Melihat hasil pengerjaan siswa.
 
-Siswa:
+### Siswa:
+1. Membuka QuizKu.
+2. Memasukkan nama dan kode kuis.
+3. Mengerjakan soal.
+4. Mendapatkan poin dan mengikuti tantangan kuis.
+5. Melihat skor akhir dan pembahasan.
 
-1. Membuka QuizKu
-2. Memasukkan nama dan kode kuis
-3. Mengerjakan soal
-4. Mendapatkan poin dan mengikuti tantangan kuis
-5. Melihat skor akhir dan pembahasan
+---
 
-- Status Pengembangan
+## Status Pengembangan
+**On Development**  
+Proyek QuizKu masih dalam tahap pengembangan secara bertahap. Fitur dan tampilan website akan terus diperbarui sesuai proses pengerjaan.
 
-On Development
+---
 
-Proyek QuizKu masih dalam tahap pengembangan secara bertahap Fitur dan tampilan website akan terus diperbarui sesuai proses pengerjaan
+## Pengembang
+Proyek ini dikembangkan sebagai bagian dari tugas perkuliahan Pemrograman Web.
 
-- Pengembang
-
-Proyek ini dikembangkan sebagai bagian dari tugas perkuliahan
-
-Nama: 1. Gusti Fani (25076066)
-      2. Richa Lettisia Oktaveri (25076066)
-Mata Kuliah: Pemrograman Web
-Program Studi: Pendidikan Teknik Informatika
-Tahun: 2026
+* **Program Studi:** Pendidikan Teknik Informatika  
+* **Mata Kuliah:** Pemrograman Web (2026)  
+* **Tim Pengembang:**
+  1. Gusti Fani (`25076066`)
+  2. Richa Lettisia Oktaveri (`25076066`)
